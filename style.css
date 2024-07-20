@@ -1,0 +1,52 @@
+.gradient-background{
+    background: linear-gradient(300deg, #003cff, #4cd5ff, #f5f5f5);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+    height: 300px;
+
+}
+
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+.profile-img {
+border-radius: 50%;
+height: 100%;
+}
+
+.spicy-rice-regular {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: aliceblue; 
+}
+
+.feature-icon-small {
+  background-color: #4cd5ff;
+}
+
+.btn {
+  background-color: #4cd5ff;
+  border: none;
+}
